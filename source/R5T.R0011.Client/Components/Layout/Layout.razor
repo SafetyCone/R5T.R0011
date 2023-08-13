@@ -1,0 +1,26 @@
+@using R5T.R0009.Components
+@using R5T.R0009.Layouts
+@using R5T.R0010.Components
+@using R5T.R0011.Components
+
+
+@inherits LayoutBase
+
+
+<BlazorWebAssemblyLayout>
+    <Head>
+        <MetaCharsetUtf8 />
+        <MetaViewportDefault />
+        <BaseDefault />
+        <CssOutTailwindStylesheetLink />
+        @this.Head
+    </Head>
+    <Body>
+        @this.Body
+    </Body>
+</BlazorWebAssemblyLayout>
+
+
+@code {
+
+}
